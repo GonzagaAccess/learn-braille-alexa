@@ -10,7 +10,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Welcome, you can say Hello or Help. Which would you like to try?';
+        const speakOutput = 'Seja bem vindo ao Aprenda Braille! Vamos aprender juntos?!';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -26,6 +26,21 @@ const HelloWorldIntentHandler = {
     },
     handle(handlerInput) {
         const speakOutput = 'Hello World!';
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
+            .getResponse();
+    }
+};
+
+const CreditsIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'CreditsIntent';
+    },
+    handle(handlerInput) {
+        const speakOutput = 'Essa skill foi criada pela organização Gonzaga Access. Inspirada por Luis Gonzaga da Silva um dos melhores professores de braille do Brasil.';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -149,6 +164,7 @@ exports.handler = Alexa.SkillBuilders.custom()
         CancelAndStopIntentHandler,
         FallbackIntentHandler,
         SessionEndedRequestHandler,
+        CreditsIntentHandler,
         IntentReflectorHandler)
     .addErrorHandlers(
         ErrorHandler)
