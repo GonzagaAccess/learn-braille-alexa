@@ -10,11 +10,13 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
+        const tasksAvailable = ['1. Saber quem é o criador'];
+        const tasksOutput = `Atualmente as funcionalidades disponíveis são: ${tasksAvailable.join(';')}`;
         const speakOutput = 'Seja bem vindo ao Aprenda Braille! Vamos aprender juntos?!';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
-            .reprompt(speakOutput)
+            .reprompt(tasksOutput)
             .getResponse();
     }
 };
