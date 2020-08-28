@@ -11,7 +11,7 @@ const LaunchRequestHandler = {
     },
     handle(handlerInput) {
         const tasksAvailable = ['1. Saber quem é o criador'];
-        const tasksOutput = `Atualmente as funcionalidades disponíveis são: ${tasksAvailable.join(';')}`;
+        const tasksOutput = `Atualmente as funcionalidades disponíveis são: ${tasksAvailable.join(';')}. Qual delas você escolhe?`;
         const speakOutput = `Seja bem vindo ao Aprenda Braille! Vamos aprender juntos?! ${tasksOutput}`;
 
         return handlerInput.responseBuilder
