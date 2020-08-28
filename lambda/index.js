@@ -42,7 +42,7 @@ const CreditsIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'CreditsIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'Essa skill foi criada pela organização Gonzaga Access. Inspirada por Luis Gonzaga da Silva um dos melhores professores de braille do Brasil.';
+        const speakOutput = 'Essa skill foi criada pela organização Gonzaga Access inspirada por Luis Gonzaga da Silva um dos melhores professores de braille do Brasil. Atualmente ela está em fase de desenvolvimento';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
