@@ -4,34 +4,19 @@
  * session persistence, api calls, and more.
  * */
 const Alexa = require('ask-sdk-core');
+const { getMessage } = require('./text/text');
 
 const LaunchRequestHandler = {
     canHandle(handlerInput) {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const tasksAvailable = ['1. Saber quem é o criador'];
-        const tasksOutput = `Atualmente as funcionalidades disponíveis são: ${tasksAvailable.join(';')}. Qual delas você escolhe?`;
-        const speakOutput = `Seja bem vindo ao Aprenda Braille! Vamos aprender juntos?! ${tasksOutput}`;
+        const availableTasks = getMessage('availableTasks');
+        const speakOutput = `${getMessage('welcome')}\n${availableTasks}`;
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
-            .reprompt(tasksOutput)
-            .getResponse();
-    }
-};
-
-const HelloWorldIntentHandler = {
-    canHandle(handlerInput) {
-        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
-            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HelloWorldIntent';
-    },
-    handle(handlerInput) {
-        const speakOutput = 'Hello World!';
-
-        return handlerInput.responseBuilder
-            .speak(speakOutput)
-            //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
+            .reprompt(availableTasks)
             .getResponse();
     }
 };
@@ -42,11 +27,10 @@ const CreditsIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'CreditsIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'Essa skill foi criada pela organização Gonzaga Access inspirada por Luis Gonzaga da Silva um dos melhores professores de braille do Brasil. Atualmente ela está em fase de desenvolvimento';
+        const speakOutput = getMessage('credits');
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
-            //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
             .getResponse();
     }
 };
@@ -161,7 +145,6 @@ const ErrorHandler = {
 exports.handler = Alexa.SkillBuilders.custom()
     .addRequestHandlers(
         LaunchRequestHandler,
-        HelloWorldIntentHandler,
         HelpIntentHandler,
         CancelAndStopIntentHandler,
         FallbackIntentHandler,
