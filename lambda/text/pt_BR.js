@@ -10,8 +10,8 @@ module.exports = {
   `,
   availableTasks: `
     Atualmente as funcionalidades disponíveis são:
-     1. História do Braille
-     2. Créditos
+     1. História do Braille;
+     2. Créditos;
     Qual delas você deseja?
   `,
   skillStatus: `
