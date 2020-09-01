@@ -28,6 +28,15 @@
             "creditos",
             "quem criou essa skill"
           ]
+        },
+        {
+          "name": "HistoryIntent",
+          "slots": [],
+          "samples": [
+            "módulo 1",
+            "história do braille",
+            "história"
+          ]
         }
       ],
       "types": []

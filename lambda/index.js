@@ -35,6 +35,20 @@ const CreditsIntentHandler = {
     }
 };
 
+const HistoryIntentHandler = {
+    canHandle(handlerInput) {
+        return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
+            && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HistoryIntent';
+    },
+    handle(handlerInput) {
+        const speakOutput = getMessage('history');
+
+        return handlerInput.responseBuilder
+            .speak(speakOutput)
+            .getResponse();
+    }
+};
+
 const HelpIntentHandler = {
     canHandle(handlerInput) {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
@@ -150,6 +164,7 @@ exports.handler = Alexa.SkillBuilders.custom()
         FallbackIntentHandler,
         SessionEndedRequestHandler,
         CreditsIntentHandler,
+        HistoryIntentHandler,
         IntentReflectorHandler)
     .addErrorHandlers(
         ErrorHandler)
