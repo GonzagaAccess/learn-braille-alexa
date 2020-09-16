@@ -1,3 +1,5 @@
+const { getMessage } = require('../text/text');
+
 const CreditsIntentHandler = {
     canHandle(handlerInput) {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
