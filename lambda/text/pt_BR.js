@@ -22,7 +22,7 @@ module.exports = {
     APRESENTAÇÃO
 
     Louis Braille nasceu em janeiro de 1809, em Coupvray, França. Aos seus 3 anos de idade, ao brincar com as ferramentas da oficina de seu pai, Louis perfurou seu olho esquerdo e, por uma infecção não tratada, perdeu a visão do olho direito aos cinco anos. 
-    As dificuldades enfrentadas por Louis Braille em seus estudos o levaram a se preocupar com a possibilidade da criação de um sistema de escrita para cegos. Em 1824 Braille tem acesso à “Escrita Noturna” do Capitão Charles Barbier de la Serre. Barbier criou uma escrita em relevo para que os militares pudessem receber ordens de batalha e lê-las mesmo no escuro.
+    As dificuldades enfrentadas por Louis Braille em seus estudos o levaram a se preocupar com a possibilidade da criação de um sistema de escrita para cegos. Em 1824 o Braille tem acesso à “Escrita Noturna” do Capitão Charles Barbier de la Serre. Barbier criou uma escrita em relevo para que os militares pudessem receber ordens de batalha e lê-las mesmo no escuro.
     O contato com a escrita de Barbier deu base para que Louis Braille, aos 15 anos, criasse um alfabeto em relevo, de leitura tátil, usado até hoje, pelos cegos do mundo todo. Tal invenção recebeu seu nome: Alfabeto Braille.
     As possíveis 64 combinações que formam esse alfabeto, além das letras, originaram a pontuação, a acentuação, os sinais matemáticos e a notação musical.
 

@@ -4,11 +4,16 @@ const HistoryIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HistoryIntent';
     },
     handle(handlerInput) {
-        const speakOutput = getMessage('history');
-
-        return handlerInput.responseBuilder
+        console.log('Received on HistoryIntentHandler');
+        try {
+          const speakOutput = getMessage('history');
+          return handlerInput.responseBuilder
             .speak(speakOutput)
             .getResponse();
+        } catch (e) {
+          console.log('Error on get speakOutput', e)
+        }
+
     }
 };
 
