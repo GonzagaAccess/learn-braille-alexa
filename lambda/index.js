@@ -11,6 +11,7 @@ const {
   HistoryIntentHandler,
   CancelAndStopIntentHandler,
   FallbackIntentHandler,
+  AlphabetAJIntentHandler,
 } = require('./handlers')
 
 /* *
@@ -81,6 +82,7 @@ exports.handler = Alexa.SkillBuilders.custom()
         SessionEndedRequestHandler,
         CreditsIntentHandler,
         HistoryIntentHandler,
+        AlphabetAJIntentHandler,
         IntentReflectorHandler)
     .addErrorHandlers(
         ErrorHandler)

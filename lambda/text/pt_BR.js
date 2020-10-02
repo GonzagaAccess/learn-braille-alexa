@@ -11,7 +11,8 @@ module.exports = {
   availableTasks: `
     Atualmente as funcionalidades disponíveis são:
      1. História do Braille;
-     2. Créditos;
+     2. Introdução ao Alfabeto de A a J;
+     3. Créditos;
     Qual delas você deseja?
   `,
   skillStatus: `
@@ -42,6 +43,46 @@ module.exports = {
 
     Atualmente, os cegos estão integrados ao trabalho, sendo úteis à sociedade e não se constituindo em um encargo para a mesma. Podem ser revisores de peças por intermédio do tato, dedicar-se à vida artística como cantores e etc.
     Em alguns casos, a limitação visual pode até funcionar como uma vantagem em relação ao indivíduo vidente, citando-se como exemplo as atividades nas quais o tato tem papel preponderante, pois os cegos têm esse sentido altamente desenvolvido.
+  </speak>
+  `,
+  alphabetAJ: `
+  <speak>
+    Sistema Braille, desde sua invenção e desenvolvimento, representa para a educação e reabilitação dos cegos, um dos principais recursos de comunicação, oferecendo-lhes oportunidades de acesso à cultura.
+
+    O Sistema baseia-se na formação de 6 pontos, com os quais se representam as letras do alfabeto, os sinais de pontuação, os números, a notação musical e científica. Esses pontos são em relevo representado na “cela-braille”, que é o nome que se dá a cada quadrinho da reglete, equipamento essencial na escrita Braille. Para perfurá-los, utiliza-se o “punção”, instrumento que acompanha a reglete.
+
+    O Braille é escrito da direita para a esquerda; portanto, há de se gravar as letras nos dois sentidos: da forma como se escreve e depois de virar o papel, da forma como se lê. Observe o exemplo:
+
+    Esses 6 pontos formam 63 combinações diferentes. A simplicidade do alfabeto Braille permite grande facilidade de aprendizagem. 
+    Conhecendo-se os dez sinais da 1ª linha que são colocados na parte superior da cela (pontos 1, 2, 4 e 5), já se tem base para 50 combinações.
+
+    A 2ª linha é derivada da primeira acrescentando-se um ponto abaixo à direita para a escrita e à esquerda para a leitura (ponto 3). 
+    A 3ª linha forma-se pelo acréscimo dos 2 pontos restantes da parte inferior da cela (pontos 3 e 6).
+    A 4ª linha é formada pela 1ª, acrescentado-se o ponto abaixo à direita para a escrita e à esquerda para a leitura (ponto 6). 
+    A 5ª linha é formada pela transposição da 1ª linha para a posição inferior dos pontos na cela (pontos 2, 3, 5 e 6) e correspondem aos sinais de pontuação e a alguns sinais matemáticos.
+
+    Para evitar confusões, aconselha-se que o estudo da escrita seja simultâneo ao da leitura. Conhecemos pessoas que escrevem o Braille e não o lêem, da mesma forma que existem pessoas que conseguem ler através do Sistema e não compreendem a escrita.
+
+    ESTUDO DA PRIMEIRA LINHA:
+
+    Conforme já vimos, o alfabeto Braille compreende 5 linhas com 10 sinais cada uma. Assim, a 1ª linha é constituída do A ao J com as combinações feitas pelos pontos 1, 2, 4 e 5. Então teremos:
+
+    A - ponto 1
+    B - pontos 1 e 2
+    C - pontos 1 e 4
+    D - pontos 1, 4 e 5
+    E - pontos 1 e 5
+    F - pontos 1, 2 e 4
+    G - pontos 1, 2, 4 e 5
+    H - pontos 1, 2 e 5
+    I - pontos 2 e 4
+    J - pontos 2, 4 e 5
+
+    É preciso tomar muito cuidado para não confundir a ordem numérica dos pontos quanto a escrita e a leitura. A letra B, por exemplo, que se escreve com os pontos 1 e 2 no lado direito da cela,  ao virar o papel para a leitura vai logicamente estar do lado esquerdo. Assim a letra D como se escreve é igual a letra F na leitura, a letra E para escrita é igual a letra I na leitura, a letra H na escrita é igual a letra J na leitura e a letra I na escrita é a letra E na leitura.
+
+    Depois de exercitar bastante a escrita e a leitura da 1ª linha, podemos escrever e ler algumas palavras que contenham somente as letras de A a J, como por exemplo:
+
+     - CADA, IDADE, CIDADE, CEGA, DIA, BABA, JACA, FACA AFIADA, FADA, etc.
   </speak>
   `
 }

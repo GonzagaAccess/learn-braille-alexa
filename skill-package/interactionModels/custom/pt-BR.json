@@ -37,6 +37,16 @@
             "história do braille",
             "história"
           ]
+        },
+        {
+          "name": "AlphabetAJIntent",
+          "slots": [],
+          "samples": [
+            "módulo 2",
+            "alfabeto de A a J",
+            "alfabeto 1",
+            "alfabeto parte 1"
+          ]
         }
       ],
       "types": []
