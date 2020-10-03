@@ -7,6 +7,7 @@ const { FallbackIntentHandler } = require('./fallbackIntentHandler')
 const { IntroAlphabetIntentHandler } = require('./introAlphabetIntentHandler')
 const { AlphabetAJIntentHandler } = require('./alphabetAJIntentHandler')
 const { AlphabetKTIntentHandler } = require('./alphabetKTIntentHandler')
+const { Alphabet3LineIntentHandler } = require('./alphabet3LineIntentHandler')
 
 module.exports = {
   CreditsIntentHandler,
@@ -18,4 +19,5 @@ module.exports = {
   IntroAlphabetIntentHandler,
   AlphabetAJIntentHandler,
   AlphabetKTIntentHandler,
+  Alphabet3LineIntentHandler,
 }

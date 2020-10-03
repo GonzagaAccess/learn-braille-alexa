@@ -65,6 +65,16 @@
             "alfabeto 2",
             "k a t"
           ]
+        },
+        {
+          "name": "Alphabet3LineIntent",
+          "slots": [],
+          "samples": [
+            "estudo da terceira linha",
+            "alfabeto de U a U com acento agudo",
+            "alfabeto 3",
+            "u a ú"
+          ]
         }
       ],
       "types": []

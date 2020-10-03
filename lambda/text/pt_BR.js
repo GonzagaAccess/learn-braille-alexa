@@ -58,12 +58,14 @@ module.exports = {
     Esses 6 pontos formam 63 combinações diferentes. A simplicidade do alfabeto Braille permite grande facilidade de aprendizagem.
     Conhecendo-se os dez sinais da 1ª linha que são colocados na parte superior da cela (pontos 1, 2, 4 e 5), já se tem base para 50 combinações.
 
-    A 2ª linha é derivada da primeira acrescentando-se um ponto abaixo à direita para a escrita e à esquerda para a leitura (ponto 3). 
-    A 3ª linha forma-se pelo acréscimo dos 2 pontos restantes da parte inferior da cela (pontos 3 e 6).
-    A 4ª linha é formada pela 1ª, acrescentado-se o ponto abaixo à direita para a escrita e à esquerda para a leitura (ponto 6). 
-    A 5ª linha é formada pela transposição da 1ª linha para a posição inferior dos pontos na cela (pontos 2, 3, 5 e 6) e correspondem aos sinais de pontuação e a alguns sinais matemáticos.
+    A 2ª linha é derivada da primeira acrescentando-se um ponto abaixo à direita para a escrita e à esquerda para a leitura (ponto 3).<break/>
+    A 3ª linha forma-se pelo acréscimo dos 2 pontos restantes da parte inferior da cela (pontos 3 e 6).<break/>
+    A 4ª linha é formada pela 1ª, acrescentado-se o ponto abaixo à direita para a escrita e à esquerda para a leitura (ponto 6).<break/>
+    A 5ª linha é formada pela transposição da 1ª linha para a posição inferior dos pontos na cela (pontos 2, 3, 5 e 6) e correspondem aos sinais de pontuação e a alguns sinais matemáticos.<break/>
 
     Para evitar confusões, aconselha-se que o estudo da escrita seja simultâneo ao da leitura. Conhecemos pessoas que escrevem o Braille e não o lêem, da mesma forma que existem pessoas que conseguem ler através do Sistema e não compreendem a escrita.
+
+    Essa skill abordará em seus exemplos, somente o modo de leitura para que fique fácil o entendimento.
   </speak>`,
   alphabetAJ: `
   <speak>
@@ -82,16 +84,17 @@ module.exports = {
     <say-as interpret-as="characters">I</say-as><break/> pontos 2 e 4;
     <say-as interpret-as="characters">J</say-as><break/> pontos 2, 4 e 5;
 
-    É preciso tomar muito cuidado para não confundir a ordem numérica dos pontos quanto a escrita e a leitura.
-    A letra <say-as interpret-as="characters">B</say-as>, por exemplo, que se escreve com os pontos 1 e 2 no lado direito da cela, ao virar o papel para a leitura vai logicamente estar do lado esquerdo.
-    Assim a letra <say-as interpret-as="characters">D</say-as> como se escreve é igual a letra <say-as interpret-as="characters">F</say-as> na leitura,
-    a letra <say-as interpret-as="characters">E</say-as> para escrita é igual a letra <say-as interpret-as="characters">I</say-as><break/> na leitura,
-    a letra <say-as interpret-as="characters">H</say-as> na escrita é igual a letra <say-as interpret-as="characters">J</say-as> na leitura
-    e a letra <say-as interpret-as="characters">I</say-as> na escrita é a letra <say-as interpret-as="characters">E</say-as> na leitura.
+    Depois de exercitar bastante a leitura da 1ª linha, podemos ler algumas palavras que contenham somente as letras de A a J, como por exemplo:
 
-    Depois de exercitar bastante a escrita e a leitura da 1ª linha, podemos escrever e ler algumas palavras que contenham somente as letras de A a J, como por exemplo:
+    CADA que ficaria:
+    <say-as interpret-as="characters">C</say-as><break/> pontos 1 e 4;
+    <say-as interpret-as="characters">A</say-as><break/> ponto 1;
+    <say-as interpret-as="characters">D</say-as><break/> pontos 1, 4 e 5;
+    <say-as interpret-as="characters">A</say-as><break/> ponto 1;
+    CADA.
 
-     - CADA, IDADE, CIDADE, CEGA, DIA, BABA, JACA, FACA AFIADA, FADA, etc.
+    Aqui estão mais alguns outros exemplos para você treinar em casa:
+    IDADE, CIDADE, CEGA, DIA, BABA, JACA, FACA AFIADA, FADA, etc.
   </speak>
   `,
   alphabetKT: `
@@ -99,6 +102,7 @@ module.exports = {
     ESTUDO DA SEGUNDA LINHA:
 
     A segunda linha é derivada da primeira acrescentando-se o ponto 3. Assim teremos:
+
     <say-as interpret-as="characters">K</say-as><break/> pontos 1 e 3;
     <say-as interpret-as="characters">L</say-as><break/> pontos 1, 2 e 3;
     <say-as interpret-as="characters">M</say-as><break/> pontos 1, 3 e 4;
@@ -110,6 +114,10 @@ module.exports = {
     <say-as interpret-as="characters">S</say-as><break/> pontos 2, 3 e 4;
     <say-as interpret-as="characters">T</say-as><break/> pontos 2, 3, 4 e 5;
 
+    Para uma melhor compreensão podemos dizer que:
+
+    A letra K<break/> é a letra A<break/> mais o ponto 3. A letra L<break/> é a letra B<break/> mais o ponto 3 e assim sucessivamente até a letra T<break/> que é o J<break/> mais o ponto 3.
+
     Agora já podemos incluir palavras e frases mais complicadas com um maior número de letras; afinal, já temos um acervo de 20 sinais.
 
     Vamos dar alguns exemplos e você poderá criar outros:
@@ -120,5 +128,28 @@ module.exports = {
 
     - O GATO BEBE O LEITE DO PIRES.
   </speak>
+  `,
+  alphabet3Line: `
+  <speak>
+    ESTUDO DA TERCEIRA LINHA:
+
+    Vale dizer que o alfabeto braille não termina na letra Z<break/> por duas razões:
+
+    Primeiro, porque tem que haver uma combinação diferente de pontos também para as letras acentuadas;
+    Segundo, por se tratar de um alfabeto universal, por isso tem que atender as necessidades de outros idiomas.
+
+    Para a terceira linha, acrescentamos à primeira os pontos 3 e 6. Então, vejamos:
+
+   <say-as interpret-as="characters">U</say-as></break> pontos 1, 3 e 6;
+   <say-as interpret-as="characters">V</say-as></break> pontos 1, 2, 3 e 6;
+   <say-as interpret-as="characters">X</say-as></break> pontos 1, 3, 4 e 6;
+   <say-as interpret-as="characters">Y</say-as></break> pontos 1, 3, 4, 5 e 6;
+   <say-as interpret-as="characters">Z</say-as></break> pontos 1, 3, 5, e 6;
+   <say-as interpret-as="characters">Ç</say-as></break> pontos 1, 2, 3, 4 e 6;
+   <say-as interpret-as="characters">É</say-as></break> pontos 1, 2, 3, 4, 5, e 6;
+   <say-as interpret-as="characters">Á</say-as></break> pontos 1, 2, 3, 5 e 6;
+   <say-as interpret-as="characters">È</say-as></break> pontos 2, 3, 4 e 6;
+   <say-as interpret-as="characters">Ú</say-as></break> ponto 2, 3, 4, 5 e 6;
+
+ </spreak>
   `
-}
