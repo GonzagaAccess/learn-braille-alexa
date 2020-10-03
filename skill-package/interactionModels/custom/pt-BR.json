@@ -39,13 +39,21 @@
           ]
         },
         {
+          "name": "AlphabetIntroIntent",
+          "slots": [],
+          "samples": [
+            "introducao ao alfabeto",
+            "introducao"
+          ]
+        },
+        {
           "name": "AlphabetAJIntent",
           "slots": [],
           "samples": [
-            "módulo dois",
+            "estudo da segunda linha",
             "alfabeto de A a J",
             "alfabeto 1",
-            "alfabeto parte 1"
+            "a a j"
           ]
         }
       ],

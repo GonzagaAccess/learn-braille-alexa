@@ -11,8 +11,9 @@ const {
   HistoryIntentHandler,
   CancelAndStopIntentHandler,
   FallbackIntentHandler,
+  IntroAlphabetIntentHandler,
   AlphabetAJIntentHandler,
-} = require('./handlers')
+} = require('./handlers');
 
 /* *
  * SessionEndedRequest notifies that a session was ended. This handler will be triggered when a currently open 
@@ -82,6 +83,7 @@ exports.handler = Alexa.SkillBuilders.custom()
         SessionEndedRequestHandler,
         CreditsIntentHandler,
         HistoryIntentHandler,
+        IntroAlphabetIntentHandler,
         AlphabetAJIntentHandler,
         IntentReflectorHandler)
     .addErrorHandlers(

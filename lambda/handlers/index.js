@@ -4,7 +4,8 @@ const { HistoryIntentHandler } = require('./historyIntentHandler')
 const { LaunchRequestHandler } = require('./launchIntentHandler')
 const { CancelAndStopIntentHandler } = require('./cancelAndStopIntentHandler')
 const { FallbackIntentHandler } = require('./fallbackIntentHandler')
-const { AlphabetAJIntentHandler } = require('./alphabetIntentAJHandler')
+const { AlphabetAJIntentHandler } = require('./alphabetAJIntentHandler')
+const { IntroAlphabetIntentHandler } = require('./introAlphabetIntentHandler')
 
 module.exports = {
   CreditsIntentHandler,
@@ -13,5 +14,6 @@ module.exports = {
   LaunchRequestHandler,
   CancelAndStopIntentHandler,
   FallbackIntentHandler,
+  IntroAlphabetIntentHandler,
   AlphabetAJIntentHandler,
 }
