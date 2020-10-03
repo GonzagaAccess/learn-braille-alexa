@@ -34,9 +34,9 @@
         "pt-BR": {
           "description": "Sample Full Description",
           "examplePhrases": [
-            "Alexa abra olá mundo",
-            "olá",
-            "ajuda"
+            "Alexa abra aprenda braille",
+            "estudo da primeira linha",
+            "creditos"
           ],
           "keywords": [],
           "name": "Aprenda Braille",

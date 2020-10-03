@@ -87,5 +87,32 @@ module.exports = {
 
      - CADA, IDADE, CIDADE, CEGA, DIA, BABA, JACA, FACA AFIADA, FADA, etc.
   </speak>
+  `,
+  alphabetKT: `
+  <speak>
+    ESTUDO DA SEGUNDA LINHA:
+
+    A segunda linha é derivada da primeira acrescentando-se o ponto 3. Assim teremos:
+    K - pontos 1 e 3
+    L - pontos 1, 2 e 3
+    M - pontos 1, 3 e 4
+    N - pontos 1, 3, 4 e 5
+    O - pontos 1, 3 e 5
+    P - pontos 1, 2, 3  e 4
+    Q - pontos 1, 2, 3, 4 e 5
+    R - pontos 1, 2, 3 e 5
+    S - pontos 2, 3 e 4
+    T - pontos 2, 3, 4 e 5
+
+    Agora já podemos incluir palavras e frases mais complicadas com um maior número de letras; afinal, já temos um acervo de 20 sinais.
+
+    Vamos dar alguns exemplos e você poderá criar outros:
+
+    - AMIGO, BANANA, MACACO, RATOEIRA, NAMORO, LATIDO, CANTOR, GAFANHOTO.
+
+    E uma frase:
+
+    - O GATO BEBE O LEITE DO PIRES.
+  </speak>
   `
 }

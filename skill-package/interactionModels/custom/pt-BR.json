@@ -50,10 +50,20 @@
           "name": "AlphabetAJIntent",
           "slots": [],
           "samples": [
-            "estudo da segunda linha",
+            "estudo da primeira linha",
             "alfabeto de A a J",
             "alfabeto 1",
             "a a j"
+          ]
+        },
+        {
+          "name": "AlphabetKTIntent",
+          "slots": [],
+          "samples": [
+            "estudo da segunda linha",
+            "alfabeto de K a T",
+            "alfabeto 2",
+            "k a t"
           ]
         }
       ],
