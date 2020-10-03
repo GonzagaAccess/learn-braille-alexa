@@ -141,16 +141,16 @@ module.exports = {
 
     Para a terceira linha, acrescentamos à primeira os pontos 3 e 6. Então, vejamos:
 
-   <say-as interpret-as="characters">U</say-as></break> pontos 1, 3 e 6;
-   <say-as interpret-as="characters">V</say-as></break> pontos 1, 2, 3 e 6;
-   <say-as interpret-as="characters">X</say-as></break> pontos 1, 3, 4 e 6;
-   <say-as interpret-as="characters">Y</say-as></break> pontos 1, 3, 4, 5 e 6;
-   <say-as interpret-as="characters">Z</say-as></break> pontos 1, 3, 5, e 6;
-   <say-as interpret-as="characters">Ç</say-as></break> pontos 1, 2, 3, 4 e 6;
-   <say-as interpret-as="characters">É</say-as></break> pontos 1, 2, 3, 4, 5, e 6;
-   <say-as interpret-as="characters">Á</say-as></break> pontos 1, 2, 3, 5 e 6;
-   <say-as interpret-as="characters">È</say-as></break> pontos 2, 3, 4 e 6;
-   <say-as interpret-as="characters">Ú</say-as></break> ponto 2, 3, 4, 5 e 6;
+   <say-as interpret-as="characters">U</say-as><break/> pontos 1, 3 e 6;
+   <say-as interpret-as="characters">V</say-as><break/> pontos 1, 2, 3 e 6;
+   <say-as interpret-as="characters">X</say-as><break/> pontos 1, 3, 4 e 6;
+   <say-as interpret-as="characters">Y</say-as><break/> pontos 1, 3, 4, 5 e 6;
+   <say-as interpret-as="characters">Z</say-as><break/> pontos 1, 3, 5, e 6;
+   <say-as interpret-as="characters">Ç</say-as><break/> pontos 1, 2, 3, 4 e 6;
+   <say-as interpret-as="characters">É</say-as><break/> pontos 1, 2, 3, 4, 5, e 6;
+   <say-as interpret-as="characters">Á</say-as><break/> pontos 1, 2, 3, 5 e 6;
+   <say-as interpret-as="characters">È</say-as><break/> pontos 2, 3, 4 e 6;
+   <say-as interpret-as="characters">Ú</say-as><break/> ponto 2, 3, 4, 5 e 6;
 
  </speak>
   `,
