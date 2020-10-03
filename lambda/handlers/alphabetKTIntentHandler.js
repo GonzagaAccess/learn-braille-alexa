@@ -1,7 +1,7 @@
 const { getMessage } = require('../text/text');
 const Alexa = require('ask-sdk-core');
 
-const AlphabetAJIntentHandler = {
+const AlphabetKTIntentHandler = {
   canHandle(handlerInput) {
     return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
       && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AlphabetKTIntent';
@@ -15,4 +15,4 @@ const AlphabetAJIntentHandler = {
   }
 };
 
-module.exports = { AlphabetAJIntentHandler }
+module.exports = { AlphabetKTIntentHandler }
