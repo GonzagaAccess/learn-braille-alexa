@@ -13,7 +13,8 @@ module.exports = {
      1. História do Braille;
      2. Introdução ao Alfabeto;
      3. Estudo da primeira linha;
-     4. Créditos;
+     4. Estudo da segunda linha;
+     5. Créditos;
     Qual delas você deseja?
   `,
   skillStatus: `
