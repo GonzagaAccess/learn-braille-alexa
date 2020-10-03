@@ -152,5 +152,6 @@ module.exports = {
    <say-as interpret-as="characters">È</say-as></break> pontos 2, 3, 4 e 6;
    <say-as interpret-as="characters">Ú</say-as></break> ponto 2, 3, 4, 5 e 6;
 
- </spreak>
-  `
+ </speak>
+  `,
+}
