@@ -71,18 +71,24 @@ module.exports = {
 
     Conforme já vimos, o alfabeto Braille compreende 5 linhas com 10 sinais cada uma. Assim, a 1ª linha é constituída do A ao J com as combinações feitas pelos pontos 1, 2, 4 e 5. Então teremos:
 
-    A - ponto 1
-    B - pontos 1 e 2
-    C - pontos 1 e 4
-    D - pontos 1, 4 e 5
-    E - pontos 1 e 5
-    F - pontos 1, 2 e 4
-    G - pontos 1, 2, 4 e 5
-    H - pontos 1, 2 e 5
-    I - pontos 2 e 4
-    J - pontos 2, 4 e 5
+    <say-as interpret-as="spell-out">A</say-as> ponto 1;
+    <say-as interpret-as="spell-out">B</say-as> pontos 1 e 2;
+    <say-as interpret-as="spell-out">C</say-as> pontos 1 e 4;
+    <say-as interpret-as="spell-out">D</say-as> pontos 1, 4 e 5;
+    <say-as interpret-as="spell-out">E</say-as> pontos 1 e 5;
+    <say-as interpret-as="spell-out">F</say-as> pontos 1, 2 e 4;
+    <say-as interpret-as="spell-out">G</say-as> pontos 1, 2, 4 e 5;
+    <say-as interpret-as="spell-out">H</say-as> pontos 1, 2 e 5;
+    <say-as interpret-as="spell-out">I</say-as> pontos 2 e 4;
+    <say-as interpret-as="spell-out">J</say-as> pontos 2, 4 e 5;
 
-    É preciso tomar muito cuidado para não confundir a ordem numérica dos pontos quanto a escrita e a leitura. A letra B, por exemplo, que se escreve com os pontos 1 e 2 no lado direito da cela,  ao virar o papel para a leitura vai logicamente estar do lado esquerdo. Assim a letra D como se escreve é igual a letra F na leitura, a letra E para escrita é igual a letra I na leitura, a letra H na escrita é igual a letra J na leitura e a letra I na escrita é a letra E na leitura.
+    É preciso tomar muito cuidado para não confundir a ordem numérica dos pontos quanto a escrita e a leitura.
+    A letra <say-as interpret-as="spell-out">B</say-as>, por exemplo, que se escreve com os pontos 1 e 2 no lado direito da cela,
+    ao virar o papel para a leitura vai logicamente estar do lado esquerdo.
+    Assim a letra <say-as interpret-as="spell-out">D</say-as> como se escreve é igual a letra <say-as interpret-as="spell-out">F</say-as> na leitura,
+    a letra <say-as interpret-as="spell-out">E</say-as> para escrita é igual a letra <say-as interpret-as="spell-out">I</say-as> na leitura,
+    a letra <say-as interpret-as="spell-out">H</say-as> na escrita é igual a letra <say-as interpret-as="spell-out">J</say-as> na leitura e
+    a letra <say-as interpret-as="spell-out">I</say-as> na escrita é a letra <say-as interpret-as="spell-out">E</say-as> na leitura.
 
     Depois de exercitar bastante a escrita e a leitura da 1ª linha, podemos escrever e ler algumas palavras que contenham somente as letras de A a J, como por exemplo:
 
@@ -94,16 +100,16 @@ module.exports = {
     ESTUDO DA SEGUNDA LINHA:
 
     A segunda linha é derivada da primeira acrescentando-se o ponto 3. Assim teremos:
-    K - pontos 1 e 3
-    L - pontos 1, 2 e 3
-    M - pontos 1, 3 e 4
-    N - pontos 1, 3, 4 e 5
-    O - pontos 1, 3 e 5
-    P - pontos 1, 2, 3  e 4
-    Q - pontos 1, 2, 3, 4 e 5
-    R - pontos 1, 2, 3 e 5
-    S - pontos 2, 3 e 4
-    T - pontos 2, 3, 4 e 5
+    <say-as interpret-as="spell-out">K</say-as> pontos 1 e 3;
+    <say-as interpret-as="spell-out">L</say-as> pontos 1, 2 e 3;
+    <say-as interpret-as="spell-out">M</say-as> pontos 1, 3 e 4;
+    <say-as interpret-as="spell-out">N</say-as> pontos 1, 3, 4 e 5;
+    <say-as interpret-as="spell-out">O</say-as> pontos 1, 3 e 5;
+    <say-as interpret-as="spell-out">P</say-as> pontos 1, 2, 3 e 4;
+    <say-as interpret-as="spell-out">Q</say-as> pontos 1, 2, 3, 4 e 5;
+    <say-as interpret-as="spell-out">R</say-as> pontos 1, 2, 3 e 5;
+    <say-as interpret-as="spell-out">S</say-as> pontos 2, 3 e 4;
+    <say-as interpret-as="spell-out">T</say-as> pontos 2, 3, 4 e 5;
 
     Agora já podemos incluir palavras e frases mais complicadas com um maior número de letras; afinal, já temos um acervo de 20 sinais.
 
