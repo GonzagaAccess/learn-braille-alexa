@@ -14,7 +14,8 @@ module.exports = {
      2. Introdução ao Alfabeto;
      3. Estudo da primeira linha;
      4. Estudo da segunda linha;
-     5. Créditos;
+     5. Estudo da terceira linha;
+     6. Créditos;
     Qual delas você deseja?
   `,
   skillStatus: `
@@ -129,7 +130,7 @@ module.exports = {
     - O GATO BEBE O LEITE DO PIRES.
   </speak>
   `,
-  alphabet3Line: `
+  alphabetThreeLine: `
   <speak>
     ESTUDO DA TERCEIRA LINHA:
 

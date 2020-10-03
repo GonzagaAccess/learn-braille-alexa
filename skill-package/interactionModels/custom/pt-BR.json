@@ -67,7 +67,7 @@
           ]
         },
         {
-          "name": "Alphabet3LineIntent",
+          "name": "AlphabetThreeLineIntent",
           "slots": [],
           "samples": [
             "estudo da terceira linha",
