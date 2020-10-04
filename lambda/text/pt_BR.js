@@ -154,4 +154,30 @@ module.exports = {
 
  </speak>
   `,
+  alphabetFourthLine: `
+  <speak>
+    ESTUDO DA QUARTA LINHA:
+
+    Para a formação da quarta linha, acrescentamos o ponto 6 à primeira linha.
+
+    Ressaltamos que a quarta linha possui algumas letras que não são utilizadas na Língua Portuguesa, porém, não é conveniente deixá-las de lado uma vez que serão aproveitadas para representar as notações musicais e outros sinais em Braille. Exemplo:
+
+   <say-as interpret-as="characters">Â</say-as> pontos 1 e 6;
+   <say-as interpret-as="characters">Ê</say-as> pontos 1, 2 e 6;
+   <say-as interpret-as="characters">Ì</say-as> pontos 1, 4 e 6;
+   <say-as interpret-as="characters">Ô</say-as> pontos 1, 4, 5 e 6;
+   <say-as interpret-as="characters">@</say-as> pontos 1, 5, e 6;
+   <say-as interpret-as="characters">À</say-as> pontos 1, 2, 4 e 6;
+   <say-as interpret-as="characters">Ï</say-as> pontos 1, 2, 4, 5, e 6;
+   <say-as interpret-as="characters">Ü</say-as> pontos 1, 2, 5 e 6;
+   <say-as interpret-as="characters">Õ</say-as> pontos 2, 4 e 6;
+   <say-as interpret-as="characters">W</say-as> pontos 2, 4, 5 e 6;
+
+   Vejam que Louis Braille foi muito meticuloso ao criar seu Sistema, não deixando escapar nenhum detalhe. Vamos fazer alguns exercícios para enfatizar bem esses detalhes:
+
+   - ELE PARTIU PARA NEW YORK NO MÊS PASSADO.
+
+   - A INFÂNCIA E A ADOLESCÊNCIA SÃO AS FASES PRINCIPAIS DO DESENVOLVIMENTO.
+  </speak>
+  `
 }
