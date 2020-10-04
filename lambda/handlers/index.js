@@ -6,7 +6,7 @@ const { CancelAndStopIntentHandler } = require('./cancelAndStopIntentHandler')
 const { FallbackIntentHandler } = require('./fallbackIntentHandler')
 const { IntroAlphabetIntentHandler } = require('./introAlphabetIntentHandler')
 const { AlphabetFirstLineIntentHandler } = require('./alphabetFirstLineIntentHandler')
-const { AlphabetKTIntentHandler } = require('./alphabetKTIntentHandler')
+const { AlphabetSecondLineIntentHandler } = require('./alphabetSecondLineIntentHandler')
 const { AlphabetThreeLineIntentHandler } = require('./alphabetThreeLineIntentHandler')
 
 module.exports = {
@@ -18,6 +18,6 @@ module.exports = {
   FallbackIntentHandler,
   IntroAlphabetIntentHandler,
   AlphabetFirstLineIntentHandler,
-  AlphabetKTIntentHandler,
+  AlphabetSecondLineIntentHandler,
   AlphabetThreeLineIntentHandler,
 }

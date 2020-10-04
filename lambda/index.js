@@ -13,7 +13,7 @@ const {
   FallbackIntentHandler,
   IntroAlphabetIntentHandler,
   AlphabetFirstLineIntentHandler,
-  AlphabetKTIntentHandler,
+  AlphabetSecondLineIntentHandler,
   AlphabetThreeLineIntentHandler,
 } = require('./handlers');
 
@@ -87,7 +87,7 @@ exports.handler = Alexa.SkillBuilders.custom()
         HistoryIntentHandler,
         IntroAlphabetIntentHandler,
         AlphabetFirstLineIntentHandler,
-        AlphabetKTIntentHandler,
+        AlphabetSecondLineIntentHandler,
         AlphabetThreeLineIntentHandler,
         IntentReflectorHandler)
     .addErrorHandlers(

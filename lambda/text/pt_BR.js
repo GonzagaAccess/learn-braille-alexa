@@ -98,7 +98,7 @@ module.exports = {
     IDADE, CIDADE, CEGA, DIA, BABA, JACA, FACA AFIADA, FADA, etc.
   </speak>
   `,
-  alphabetKT: `
+  alphabetSecondLine: `
   <speak>
     ESTUDO DA SEGUNDA LINHA:
 

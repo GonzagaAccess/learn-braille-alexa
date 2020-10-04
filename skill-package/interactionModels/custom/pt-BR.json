@@ -57,7 +57,7 @@
           ]
         },
         {
-          "name": "AlphabetKTIntent",
+          "name": "AlphabetSecondLineIntent",
           "slots": [],
           "samples": [
             "estudo da segunda linha",
