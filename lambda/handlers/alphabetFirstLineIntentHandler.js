@@ -1,13 +1,13 @@
 const { getMessage } = require('../text/text');
 const Alexa = require('ask-sdk-core');
 
-const AlphabetAJIntentHandler = {
+const AlphabetFirstLineIntentHandler = {
   canHandle(handlerInput) {
     return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest'
-      && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AlphabetAJIntent';
+      && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AlphabetFirstLineIntent';
   },
   handle(handlerInput) {
-    const speakOutput = getMessage('alphabetAJ');
+    const speakOutput = getMessage('alphabetFirstLine');
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
@@ -15,4 +15,4 @@ const AlphabetAJIntentHandler = {
   }
 };
 
-module.exports = { AlphabetAJIntentHandler }
+module.exports = { AlphabetFirstLineIntentHandler }

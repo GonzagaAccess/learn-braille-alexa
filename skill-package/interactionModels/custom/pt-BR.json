@@ -47,7 +47,7 @@
           ]
         },
         {
-          "name": "AlphabetAJIntent",
+          "name": "AlphabetFirstLineIntent",
           "slots": [],
           "samples": [
             "estudo da primeira linha",

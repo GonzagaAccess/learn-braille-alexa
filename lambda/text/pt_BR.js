@@ -68,7 +68,7 @@ module.exports = {
 
     Essa skill abordará em seus exemplos, somente o modo de leitura para que fique fácil o entendimento.
   </speak>`,
-  alphabetAJ: `
+  alphabetFirstLine: `
   <speak>
     ESTUDO DA PRIMEIRA LINHA:
 
