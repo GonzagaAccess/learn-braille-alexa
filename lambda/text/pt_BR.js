@@ -195,14 +195,14 @@ module.exports = {
    <say-as interpret-as="characters">?</say-as><break/> pontos 2 e 6;
    <say-as interpret-as="characters">!</say-as><break/> pontos 2, 3 e 5;
    <say-as interpret-as="characters">=</say-as><break/> pontos 2, 3, 5 e 6;
-   <say-as interpret-as="characters">“ "</say-as><break/> pontos 2, 3 e 6;
+   <say-as interpret-as="characters">"</say-as><break/> pontos 2, 3 e 6;
    <say-as interpret-as="characters">*</say-as><break/> pontos 3 e 5;
-   <say-as interpret-as="characters">o</say-as><break/> pontos 3, 5 e 6;
+   <say-as interpret-as="characters">°</say-as><break/> pontos 3, 5 e 6;
 
 
     Se observarem bem, ainda estão faltando três letras muito usadas:
-    o <say-as interpret-as="characters">í</say-as>
-    o <say-as interpret-as="characters">ã</say-as> e o <say-as interpret-as="characters">ó</say-as>, que foram acrescentadas posteriormente ao Sistema Braille para atender às necessidades da Língua Portuguesa. Exemplo:
+    o <say-as interpret-as="characters">í</say-as><break/>
+    o <say-as interpret-as="characters">ã</say-as><break/> e o <say-as interpret-as="characters">ó</say-as><break/>, que foram acrescentadas posteriormente ao Sistema Braille para atender às necessidades da Língua Portuguesa. Exemplo:
 
    <say-as interpret-as="characters">í</say-as><break/> pontos 3 e 4;
    <say-as interpret-as="characters">ã</say-as><break/> pontos 3, 4 e 5;
