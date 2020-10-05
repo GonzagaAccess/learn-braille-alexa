@@ -91,6 +91,14 @@
             "estudo da quinta linha",
             "alfabeto 5"
           ]
+        },
+        {
+          "name": "AlphabetNumberIntent",
+          "slots": [],
+          "samples": [
+            "estudo dos numeros",
+            "numeros"
+          ]
         }
       ],
       "types": []

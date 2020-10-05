@@ -17,7 +17,8 @@ module.exports = {
      5. Estudo da terceira linha;
      6. Estudo da quarta linha;
      7. Estudo da quinta linha;
-     8. Créditos;
+     8. Estudo dos números;
+     9. Créditos;
     Qual delas você deseja?
   `,
   skillStatus: `
@@ -209,4 +210,30 @@ module.exports = {
    <say-as interpret-as="characters">ó</say-as><break/> pontos 3, 4 e 6;
   </speak>
   `,
+  alphabetNumber: `
+  <speak>
+    OS NÚMEROS:
+
+    Para se escrever e ler os números aproveitou-se, a primeira linha do alfabeto acrescida de um sinal característico, denominado “Sinal de Algarismo” que corresponde aos pontos 3, 4, 5 e 6. Assim, teremos:
+
+    Sinal de Algarismo +<say-as interpret-as="characters">A</say-as><break/> é igual a 1;
+    Sinal de Algarismo +<say-as interpret-as="characters">B</say-as><break/> é igual a 2;
+    Sinal de Algarismo +<say-as interpret-as="characters">C</say-as><break/> é igual a 3;
+    Sinal de Algarismo +<say-as interpret-as="characters">D</say-as><break/> é igual a 4;
+    Sinal de Algarismo +<say-as interpret-as="characters">E</say-as><break/> é igual a 5;
+    Sinal de Algarismo +<say-as interpret-as="characters">F</say-as><break/> é igual a 6;
+    Sinal de Algarismo +<say-as interpret-as="characters">G</say-as><break/> é igual a 7;
+    Sinal de Algarismo +<say-as interpret-as="characters">H</say-as><break/> é igual a 8;
+    Sinal de Algarismo +<say-as interpret-as="characters">I</say-as><break/> é igual a 9;
+    Sinal de Algarismo +<say-as interpret-as="characters">J</say-as><break/> é igual a 0;
+    Sinal de Algarismo +<say-as interpret-as="characters">AJ</say-as><break/> é igual a 10 e assim por diante;
+
+    Todas as letras da 1ª linha, quando precedidas do sinal de algarismo, representarão números.
+    Se você quiser escrever, por exemplo, 2009, proceda da seguinte maneira:
+    coloque o sinal de algarismo, logo em seguida as letras correspondentes ao 2 que é o B<break/>, ao 0 que é o J<break/>, ao 0 que é o J<break/> e ao 9 que é o I;
+    portanto, o que define o final de um número é o espaço, ou seja, pulando-se um quadrinho no reglete, está claro?
+
+    Então exercite os números de 1 a 11 e depois crie um texto colocando, no início, o dia, o mês e o ano.
+  </speak>
+  `
 }
