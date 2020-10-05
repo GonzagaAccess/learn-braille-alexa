@@ -75,6 +75,22 @@
             "alfabeto 3",
             "u a ú"
           ]
+        },
+        {
+          "name": "AlphabetFourthLineIntent",
+          "slots": [],
+          "samples": [
+            "estudo da quarta linha",
+            "alfabeto 4"
+          ]
+        },
+        {
+          "name": "AlphabetFifthLineIntent",
+          "slots": [],
+          "samples": [
+            "estudo da quinta linha",
+            "alfabeto 5"
+          ]
         }
       ],
       "types": []

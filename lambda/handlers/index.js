@@ -9,6 +9,7 @@ const { AlphabetFirstLineIntentHandler } = require('./alphabetFirstLineIntentHan
 const { AlphabetSecondLineIntentHandler } = require('./alphabetSecondLineIntentHandler')
 const { AlphabetThreeLineIntentHandler } = require('./alphabetThreeLineIntentHandler')
 const { AlphabetFourthLineIntentHandler } = require('./alphabetFourthLineIntentHandler')
+const { AlphabetFifthLineIntentHandler } = require('./alphabetFifthLineIntentHandler')
 
 module.exports = {
   CreditsIntentHandler,
@@ -22,4 +23,5 @@ module.exports = {
   AlphabetSecondLineIntentHandler,
   AlphabetThreeLineIntentHandler,
   AlphabetFourthLineIntentHandler,
+  AlphabetFifthLineIntentHandler,
 }

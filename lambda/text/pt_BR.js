@@ -16,7 +16,8 @@ module.exports = {
      4. Estudo da segunda linha;
      5. Estudo da terceira linha;
      6. Estudo da quarta linha;
-     7. Créditos;
+     7. Estudo da quinta linha;
+     8. Créditos;
     Qual delas você deseja?
   `,
   skillStatus: `
@@ -163,16 +164,16 @@ module.exports = {
 
     Ressaltamos que a quarta linha possui algumas letras que não são utilizadas na Língua Portuguesa, porém, não é conveniente deixá-las de lado uma vez que serão aproveitadas para representar as notações musicais e outros sinais em Braille. Exemplo:
 
-   <say-as interpret-as="characters">Â</say-as> pontos 1 e 6;
-   <say-as interpret-as="characters">Ê</say-as> pontos 1, 2 e 6;
-   <say-as interpret-as="characters">Ì</say-as> pontos 1, 4 e 6;
-   <say-as interpret-as="characters">Ô</say-as> pontos 1, 4, 5 e 6;
-   <say-as interpret-as="characters">@</say-as> pontos 1, 5, e 6;
-   <say-as interpret-as="characters">À</say-as> pontos 1, 2, 4 e 6;
-   <say-as interpret-as="characters">Ï</say-as> pontos 1, 2, 4, 5, e 6;
-   <say-as interpret-as="characters">Ü</say-as> pontos 1, 2, 5 e 6;
-   <say-as interpret-as="characters">Õ</say-as> pontos 2, 4 e 6;
-   <say-as interpret-as="characters">W</say-as> pontos 2, 4, 5 e 6;
+   <say-as interpret-as="characters">Â</say-as><break/> pontos 1 e 6;
+   <say-as interpret-as="characters">Ê</say-as><break/> pontos 1, 2 e 6;
+   <say-as interpret-as="characters">Ì</say-as><break/> pontos 1, 4 e 6;
+   <say-as interpret-as="characters">Ô</say-as><break/> pontos 1, 4, 5 e 6;
+   <say-as interpret-as="characters">@</say-as><break/> pontos 1, 5, e 6;
+   <say-as interpret-as="characters">À</say-as><break/> pontos 1, 2, 4 e 6;
+   <say-as interpret-as="characters">Ï</say-as><break/> pontos 1, 2, 4, 5, e 6;
+   <say-as interpret-as="characters">Ü</say-as><break/> pontos 1, 2, 5 e 6;
+   <say-as interpret-as="characters">Õ</say-as><break/> pontos 2, 4 e 6;
+   <say-as interpret-as="characters">W</say-as><break/> pontos 2, 4, 5 e 6;
 
    Vejam que Louis Braille foi muito meticuloso ao criar seu Sistema, não deixando escapar nenhum detalhe. Vamos fazer alguns exercícios para enfatizar bem esses detalhes:
 
@@ -180,5 +181,32 @@ module.exports = {
 
    - A INFÂNCIA E A ADOLESCÊNCIA SÃO AS FASES PRINCIPAIS DO DESENVOLVIMENTO.
   </speak>
-  `
+  `,
+  alphabetFifthLine: `
+  <speak>
+    ESTUDO DA QUINTA LINHA:
+
+    A quinta linha é a transposição da primeira linha para a parte inferior da cela, ou seja, os pontos 2, 3, 5 e 6 que vão representar os sinais de pontuações e sinais matemáticos:
+
+   <say-as interpret-as="characters">,</say-as><break/> ponto 2;
+   <say-as interpret-as="characters">;</say-as><break/> pontos 2 e 3;
+   <say-as interpret-as="characters">:</say-as><break/> pontos 2 e 5;
+   <say-as interpret-as="characters">÷</say-as><break/> pontos 2, 5 e 6;
+   <say-as interpret-as="characters">?</say-as><break/> pontos 2 e 6;
+   <say-as interpret-as="characters">!</say-as><break/> pontos 2, 3 e 5;
+   <say-as interpret-as="characters">=</say-as><break/> pontos 2, 3, 5 e 6;
+   <say-as interpret-as="characters">“ "</say-as><break/> pontos 2, 3 e 6;
+   <say-as interpret-as="characters">*</say-as><break/> pontos 3 e 5;
+   <say-as interpret-as="characters">o</say-as><break/> pontos 3, 5 e 6;
+
+
+    Se observarem bem, ainda estão faltando três letras muito usadas:
+    o <say-as interpret-as="characters">í</say-as>
+    o <say-as interpret-as="characters">ã</say-as> e o <say-as interpret-as="characters">ó</say-as>, que foram acrescentadas posteriormente ao Sistema Braille para atender às necessidades da Língua Portuguesa. Exemplo:
+
+   <say-as interpret-as="characters">í</say-as><break/> pontos 3 e 4;
+   <say-as interpret-as="characters">ã</say-as><break/> pontos 3, 4 e 5;
+   <say-as interpret-as="characters">ó</say-as><break/> pontos 3, 4 e 6;
+  </speak>
+  `,
 }
