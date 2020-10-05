@@ -15,7 +15,8 @@ module.exports = {
      3. Estudo da primeira linha;
      4. Estudo da segunda linha;
      5. Estudo da terceira linha;
-     6. Créditos;
+     6. Estudo da quarta linha;
+     7. Créditos;
     Qual delas você deseja?
   `,
   skillStatus: `
