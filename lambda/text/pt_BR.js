@@ -1,4 +1,19 @@
 module.exports = {
+  errorMessage: 'Desculpe, estou com problemas para processar essa mensagem. Tente de novo mais tarde ou entre em contato com Gonzaga Access.',
+  byeMessage: `
+    <speak>
+      pontos 1, 3, 4, 6; <say-as interpret-as="characters">X</say-as><break/>
+      ponto 1; <say-as interpret-as="characters">A</say-as><break/>
+      pontos 1, 3 e 6; <say-as interpret-as="characters">U</say-as><break/>
+      Xau
+    </speak>
+  `,
+  helpMessage: `
+    Através da inclusão digital vou fazer o possível para te ajudar a entender o Braille, com isso basta você dizer: Alexa, abra aprenda braille;
+    Em seguida vou listar as funcionalidades disponíveis para você aprender no seu tempo. Lembre-se, os módulos estão sequênciais, você ter o conhecimento do Estudo da Primeira linha antes de embarcar no Estudo da Segunda linha, e assim por diante.
+
+    Então, por exemplo você pode dizer: Alexa abra Aprenda Braille, e em seguida, Estudo da primeira linha.
+  `,
   credits: `
     Esta skill foi criada pela organização Gonzaga Access.
     Gonzaga Access é uma organização sem fins lucrativos, com o intuito de incluir pessoas com deficiência na tecnologia.

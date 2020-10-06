@@ -19,6 +19,7 @@ const {
   AlphabetFifthLineIntentHandler,
   AlphabetNumberIntentHandler,
 } = require('./handlers');
+const { getMessage } = require('./text/text');
 
 /* *
  * SessionEndedRequest notifies that a session was ended. This handler will be triggered when a currently open 
@@ -46,7 +47,7 @@ const IntentReflectorHandler = {
     },
     handle(handlerInput) {
         const intentName = Alexa.getIntentName(handlerInput.requestEnvelope);
-        const speakOutput = `You just triggered ${intentName}`;
+        const speakOutput = `Trigger ${intentName}`;
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -64,7 +65,7 @@ const ErrorHandler = {
         return true;
     },
     handle(handlerInput, error) {
-        const speakOutput = 'Sorry, I had trouble doing what you asked. Please try again.';
+        const speakOutput = getMessage('errorMessage');
         console.log(`~~~~ Error handled: ${JSON.stringify(error)}`);
 
         return handlerInput.responseBuilder

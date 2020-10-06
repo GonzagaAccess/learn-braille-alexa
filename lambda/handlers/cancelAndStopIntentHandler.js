@@ -1,4 +1,5 @@
 const Alexa = require('ask-sdk-core');
+const { getMessage } = require('../text/text');
 
 const CancelAndStopIntentHandler = {
   canHandle(handlerInput) {
@@ -7,7 +8,7 @@ const CancelAndStopIntentHandler = {
         || Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.StopIntent');
   },
   handle(handlerInput) {
-    const speakOutput = 'Goodbye!';
+    const speakOutput = getMessage('byeMessage');
 
     return handlerInput.responseBuilder
       .speak(speakOutput)

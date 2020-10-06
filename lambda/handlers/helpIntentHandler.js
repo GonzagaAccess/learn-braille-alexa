@@ -1,4 +1,5 @@
 const Alexa = require('ask-sdk-core');
+const { getMessage } = require('../text/text');
 
 const HelpIntentHandler = {
   canHandle(handlerInput) {
@@ -6,7 +7,7 @@ const HelpIntentHandler = {
       && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.HelpIntent';
   },
   handle(handlerInput) {
-    const speakOutput = 'You can say hello to me! How can I help?';
+    const speakOutput = getMessage('helpMessage');
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
