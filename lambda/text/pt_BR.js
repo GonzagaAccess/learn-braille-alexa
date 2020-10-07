@@ -10,7 +10,7 @@ module.exports = {
   `,
   helpMessage: `
     Através da inclusão digital vou fazer o possível para te ajudar a entender o Braille, com isso basta você dizer: Alexa, abra aprenda braille;
-    Em seguida vou listar as funcionalidades disponíveis para você aprender no seu tempo. Lembre-se, os módulos estão sequênciais, você ter o conhecimento do Estudo da Primeira linha antes de embarcar no Estudo da Segunda linha, e assim por diante.
+    Em seguida vou listar as funcionalidades disponíveis para você aprender no seu tempo. Lembre-se, os módulos estão sequenciais, você precisa ter o conhecimento do Estudo da Primeira linha antes de embarcar no Estudo da Segunda linha, e assim por diante.
 
     Então, por exemplo você pode dizer: Alexa abra Aprenda Braille, e em seguida, Estudo da primeira linha.
   `,
