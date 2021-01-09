@@ -11,6 +11,7 @@ const { AlphabetThreeLineIntentHandler } = require('./alphabetThreeLineIntentHan
 const { AlphabetFourthLineIntentHandler } = require('./alphabetFourthLineIntentHandler')
 const { AlphabetFifthLineIntentHandler } = require('./alphabetFifthLineIntentHandler')
 const { AlphabetNumberIntentHandler } = require('./alphabetNumberIntentHandler')
+const { BirthdayIntentHandler } = require('./birthdayIntentHandler')
 
 module.exports = {
   CreditsIntentHandler,
