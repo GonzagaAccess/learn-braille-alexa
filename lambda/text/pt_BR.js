@@ -251,5 +251,51 @@ module.exports = {
 
     Então exercite os números de 1 a 11 e depois crie um texto colocando, no início, o dia, o mês e o ano.
   </speak>
+  `,
+  birthday: `
+  <speak>
+  Um momento especial de renovação para sua alma e seu espírito, porque Deus, na sua infinita sabedoria, deu à natureza a capacidade de desabrochar a cada nova estação e a nós, capacidade de recomeçar a cada ano.
+  Afinal fazer aniversário é ter a chance de fazer novos amigos, ajudar mais pessoas, aprender e ensinar novas lições, vivenciar outras dores e suportar velhos problemas.
+  Sorrir novos motivos e chorar outros, porque amar o próximo é dar mais amparo, rezar mais preces e agradecer mais vezes.
+  Fazer Aniversário é amadurecer um pouco mais e olhar a vida como uma dádiva de Deus.
+  É ser grato, reconhecido, forte, destemido.
+  É ser rima, é ser verso, é ver Deus no universo;
+  
+  Mensagem de Cibele:
+  <break/>
+  Feliz aniversário sogro do meu coração!
+  Que Deus continue te abençoando sempre, desejo muitas felicidades, muita saúde e que você tenha bastante ânimo pra gente poder ir lá pra Minas Gerais, vamos passear bastante, dar muitas risadas...
+  Aproveite seu dia, que ele seja muito abençoado e agradável, sinta-se abraçado por mim e pelo Nunu.
+  Feliz aniversário seu Luiz!
+  
+  Mensagem de Matheus:
+  <break/>
+  Feliz aniversário vô aqui é o negro kkkk Não sou bom pra mandar mensagem, mas, tudo de bom pra você e muita paz, te amo. E eu só consigo lembrar de quando eu acordava pra tomar leite e do Osama Bin Laden também kkkk.
+  
+  Mensagem de Isaac:
+  <break/>
+  Oi vô é o seu neto Isaac, como você está? Espero que esteja bem.
+  Olha vô hoje é um dia muito especial, peço mil desculpas por não ter ido te ver, mas com esse corona fica difícil né. Sei que a vida não foi muito gentil com você, mas você sempre levantou, sempre persistiu e por isso hoje você é essa pessoa incrível e batalhadora.
+  Eu espero que você aproveite este teu dia e continue sendo essa pessoa incrível que você é, e lhe desejo um feliz aniversário e te desejo tudo que há de melhor nessa vida... Um abraço do seu neto, Isaac.
+  
+  Mensagem de Cristiano:
+  <break/>
+  Pai, aqui é seu filho Cristiano, quero desejar parabéns pra vc, que Deus te abençoe grandemente , saiba que te amo e estou com saudades.
+  
+  Mensagem de Rafael:
+  <break/>
+  Feliz aniversário pai, tudo de bom na sua vida. Infelizmente esse aniversário não podemos comemorar pessoalmente, mas nos próximos com certeza vamos estar pertos. <break/>
+  É seu aniversário, mas eu quero agradecer o presente que você me dá todos os dias só por estar vivo. Me espelho muito em você desde criança e espero um dia chegar ao homem que você é. <break/>
+  Não pude comprar um presente pra você esse ano, mas, espero nos próximos anos fazer show no violão <say-as interpret-as="characters">kkk</say-as><break/>. Não desista pai, ainda temos muito o que viver,<break/> visitar o instituto,<break/> ir pra Piedade <break/> e agora comigo trabalhando pro Chile, quem sabe não ir curtir uma neve lá.
+
+  Bom, é isso. Te amo muito, abraço!
+  
+  Mensagem de Angela:
+  <break/>
+  Amor, parabéns! Hoje você completa mais um ano da sua vida,mas o melhor presente é meu, pois sou eu que tenho o privilégio de compartilhar a vida com o melhor marido e melhor homem do mundo!
+  Sinto muito orgulho de você! Que seus sonhos se realizem e que seu caminho esteja sempre recheado de sucesso e que fiquemos juntos até que não haja mais vida para vivermos!
+  Feliz aniversário!
+  Eu te amo!
+  </speak>
   `
 }
