@@ -34,6 +34,7 @@ module.exports = {
      7. Estudo da quinta linha;
      8. Estudo dos números;
      9. Créditos;
+     10. Mensagem de Aniversário;
     Qual delas você deseja?
   `,
   skillStatus: `
