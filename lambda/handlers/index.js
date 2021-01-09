@@ -27,4 +27,5 @@ module.exports = {
   AlphabetFourthLineIntentHandler,
   AlphabetFifthLineIntentHandler,
   AlphabetNumberIntentHandler,
+  BirthdayIntentHandler,
 }
