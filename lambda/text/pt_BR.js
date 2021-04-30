@@ -235,5 +235,16 @@ module.exports = {
 
     Então exercite os números de 1 a 11 e depois crie um texto colocando, no início, o dia, o mês e o ano.
   </speak>
+  `,
+  braille8: `
+    Ao longo da história do Sistema Braille, têm sido realizados diversos estudos e experiências com o objetivo de ampliar o número de
+    símbolos representados por um único sinal, sem prejudicar a legibilidade, nem aumentar excessivamente o espaço ocupado pelo texto.
+
+    Atualmente, o melhor sistema encontrado é o chamado Braille de 8 pontos, constituído pela inclusão do ponto 7, abaixo do ponto 3; e do ponto 8, abaixo do ponto 6.
+
+    Esta é uma solução que há muito tempo vem sendo empregada em displays e impressoras braille. Por esta razão, foi criada nesta grafia uma tabela de 8 pontos, cuja
+    correspondência com a tabela de símbolos em Braille de 6 pontos é obtida através de um conjunto de regras de conversão automática.
+
+    Desta forma, espera-se que futuramente, com o aumento da necessidade de padronização do Braille de 8 pontos, as regras de conversão automática seja um paradigma consistente para satisfazer as necessidades da informática.
   `
 }
