@@ -18,6 +18,7 @@ const {
   AlphabetFourthLineIntentHandler,
   AlphabetFifthLineIntentHandler,
   AlphabetNumberIntentHandler,
+  BrailleEightIntentHandler,
 } = require('./handlers');
 const { getMessage } = require('./text/text');
 
@@ -96,6 +97,7 @@ exports.handler = Alexa.SkillBuilders.custom()
         AlphabetFourthLineIntentHandler,
         AlphabetFifthLineIntentHandler,
         AlphabetNumberIntentHandler,
+        BrailleEightIntentHandler,
         IntentReflectorHandler)
     .addErrorHandlers(
         ErrorHandler)

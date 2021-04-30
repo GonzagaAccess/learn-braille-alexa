@@ -33,7 +33,8 @@ module.exports = {
      6. Estudo da quarta linha;
      7. Estudo da quinta linha;
      8. Estudo dos números;
-     9. Créditos;
+     9. Braille de oito pontos;
+     10. Créditos;
     Qual delas você deseja?
   `,
   skillStatus: `
